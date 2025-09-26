@@ -22,6 +22,8 @@ import DMCA from "./pages/dmca/DMCA";
 import Contact from "./pages/contact/Contact";
 
 function App() {
+  console.log("API URL from env:", import.meta.env.VITE_API_URL);
+
   const location = useLocation();
 
   // Scroll to top on location change
